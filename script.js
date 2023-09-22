@@ -3,12 +3,11 @@ function decimalToBinary(num) {
 
 	let numa = "";
 
-
 	while(num != 0){
 		numa += num %2;
 		num  = num /2;
 	}
-	return numa;
+	console.log(numa);
 }
 
 window.decimalToBinary = decimalToBinary;
